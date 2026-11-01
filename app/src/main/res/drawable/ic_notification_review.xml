@@ -1,0 +1,34 @@
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Back flashcard -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeLineJoin="round"
+        android:pathData="M5,3.5 H13 A1.5,1.5 0,0 1 14.5,5 V15 H5 A1.5,1.5 0,0 1 3.5,13.5 V5 A1.5,1.5 0,0 1 5,3.5 Z" />
+
+    <!-- Front flashcard: grey with white outline -->
+    <path
+        android:fillColor="#FF808080"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeLineJoin="round"
+        android:pathData="M9,7 H18 A1.5,1.5 0,0 1 19.5,8.5 V18 A1.5,1.5 0,0 1 18,19.5 H9 A1.5,1.5 0,0 1 7.5,18 V8.5 A1.5,1.5 0,0 1 9,7 Z" />
+
+    <!-- Two white lines -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M10,10 H17 V11 H10 Z M10,12.5 H15.5 V13.5 H10 Z" />
+
+    <!-- White checkmark -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M10,15.5 L12,17.5 L17,12.5 L18,13.5 L12,19 L9,16.5 Z" />
+
+</vector>
