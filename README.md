@@ -89,13 +89,13 @@ Cards progress through the boxes based on review performance. Cards that need mo
 
 ### Vocabulary Dataset
 
-The lesson dataset is intentionally excluded from this public repository. A complete local build requires the separately maintained dataset at:
+The original vocabulary dataset is maintained separately and is not included in this public repository.
 
-```text
-app/src/main/assets/lessons/lessons.json
-```
+To build a fully functional version of the application, the dataset must be placed at:
 
-The dataset is not distributed through this repository.
+`app/src/main/assets/lessons/lessons.json`
+
+The dataset is distributed separately and is not part of this repository.
 
 ## Releases
 
