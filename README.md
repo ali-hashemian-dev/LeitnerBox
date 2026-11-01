@@ -1,0 +1,111 @@
+# LeitnerBox
+
+**Learn smarter. Remember longer.**
+
+LeitnerBox is an Android flashcard application built with **Kotlin** and **Jetpack Compose**. It implements the **six-box Leitner spaced repetition system** to help learners review vocabulary at scheduled intervals.
+
+**Developed by Ali Hashemian**
+
+---
+
+## Screenshots
+
+<p align="center">
+  <img src="screenshots/home.jpg" width="240" alt="LeitnerBox Home screen" />
+  &nbsp;&nbsp;
+  <img src="screenshots/review.jpg" width="240" alt="LeitnerBox Review screen" />
+</p>
+
+<p align="center">
+  <img src="screenshots/vocabulary.jpg" width="240" alt="LeitnerBox Vocabulary screen" />
+  &nbsp;&nbsp;
+  <img src="screenshots/statistics.jpg" width="240" alt="LeitnerBox Statistics screen" />
+</p>
+
+<p align="center">
+  <img src="screenshots/settings.jpg" width="240" alt="LeitnerBox Settings screen" />
+</p>
+
+## Overview
+
+LeitnerBox combines a structured flashcard workflow with spaced repetition. Users can select vocabulary from lessons, create personal entries, review saved cards, and monitor their learning progress.
+
+## Features
+
+- Six-box Leitner flashcard system
+- Configurable review intervals
+- Lesson-based vocabulary selection
+- Personal vocabulary creation and management
+- Review sessions with recall feedback
+- Learning statistics and vocabulary distribution
+- Scheduled review notifications
+- Test mode for accelerated scheduling during development and testing
+
+## Leitner Review Schedule
+
+The default review intervals are:
+
+| Box | Interval |
+|---|---:|
+| Box 1 | 1 day |
+| Box 2 | 2 days |
+| Box 3 | 4 days |
+| Box 4 | 7 days |
+| Box 5 | 14 days |
+| Box 6 | 30 days |
+
+Cards progress through the boxes based on review performance. Cards that need more practice return to an earlier stage.
+
+## Technology
+
+- **Kotlin** — application programming language
+- **Jetpack Compose** — declarative Android UI
+- **Room** — local database persistence
+- **Android SDK** — application platform
+- **JSON** — structured lesson vocabulary data
+- **Android Alarm and Notification APIs** — scheduled review reminders
+
+## Project Details
+
+| Item | Value |
+|---|---|
+| Application | LeitnerBox |
+| Package | `com.leitnerbox.app` |
+| Platform | Android |
+| Minimum SDK | API 24 (Android 7.0) |
+| Developer | Ali Hashemian |
+
+## Getting Started
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/ali-hashemian-dev/LeitnerBox.git
+   ```
+
+2. Open the project in Android Studio.
+3. Allow Gradle synchronization to finish.
+4. Build and run the application on an Android device.
+
+### Vocabulary Dataset
+
+The lesson dataset is intentionally excluded from this public repository. A complete local build requires the separately maintained dataset at:
+
+```text
+app/src/main/assets/lessons/lessons.json
+```
+
+The dataset is not distributed through this repository.
+
+## Releases
+
+When a packaged APK is published, it will be available from the [GitHub Releases page](https://github.com/ali-hashemian-dev/LeitnerBox/releases).
+
+## Author
+
+**Ali Hashemian**  
+GitHub: [@ali-hashemian-dev](https://github.com/ali-hashemian-dev)
+
+---
+
+*LeitnerBox is an independent Android software project.*
