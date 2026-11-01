@@ -60,10 +60,10 @@ Cards progress through the boxes based on review performance. Cards that need mo
 
 - **Kotlin** — application programming language
 - **Jetpack Compose** — declarative Android UI
-- **Room** — local database persistence
+- **SQLite (SQLiteOpenHelper)** — local database persistence
 - **Android SDK** — application platform
 - **JSON** — structured lesson vocabulary data
-- **Android Alarm and Notification APIs** — scheduled review reminders
+- **Android AlarmManager and Notification APIs** — scheduled review reminders
 
 ## Project Details
 
