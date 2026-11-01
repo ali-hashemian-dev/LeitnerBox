@@ -112,7 +112,7 @@ The dataset must follow the JSON structure expected by `LessonRepository`. It is
 
 ## Releases
 
-The latest APK release is available on the [GitHub Releases page](https://github.com/ali-hashemian-dev/LeitnerBox/releases)., it will be available from the [GitHub Releases page](https://github.com/ali-hashemian-dev/LeitnerBox/releases).
+The latest APK release is available on the [GitHub Releases page](https://github.com/ali-hashemian-dev/LeitnerBox/releases).
 
 ## Author
 
