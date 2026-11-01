@@ -109,15 +109,6 @@ To build a fully functional version of the application, place the dataset file a
 
 The dataset must follow the JSON structure expected by `LessonRepository`. It is distributed separately and is not included in this repository.
 
-### Vocabulary Dataset
-
-The original vocabulary dataset is maintained separately and is not included in this public repository.
-
-To build a fully functional version of the application, the dataset must be placed at:
-
-`app/src/main/assets/lessons/lessons.json`
-
-The dataset is distributed separately and is not part of this repository.
 
 ## Releases
 
