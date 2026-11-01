@@ -96,8 +96,18 @@ The application uses local data storage and does not require a remote backend fo
    ```
 
 2. Open the project in Android Studio.
-3. Allow Gradle synchronization to finish.
-4. Build and run the application on an Android device.
+3. Allow Gradle synchronization to complete.
+4. Build and run the application on an Android device running Android 7.0 (API 24) or higher.
+
+### Vocabulary Dataset
+
+The original vocabulary dataset is maintained separately and is not included in this public repository.
+
+To build a fully functional version of the application, place the dataset file at:
+
+`app/src/main/assets/lessons/lessons.json`
+
+The dataset must follow the JSON structure expected by `LessonRepository`. It is distributed separately and is not included in this repository.
 
 ### Vocabulary Dataset
 
