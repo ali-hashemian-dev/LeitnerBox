@@ -65,6 +65,18 @@ Cards progress through the boxes based on review performance. Cards that need mo
 - **JSON** — structured lesson vocabulary data
 - **Android AlarmManager and Notification APIs** — scheduled review reminders
 
+  ## Architecture
+
+LeitnerBox follows a component-based Android application structure built with Kotlin and Jetpack Compose.
+
+- **Presentation:** Jetpack Compose screens handle the user interface, navigation, and UI state.
+- **Data Management:** SQLiteOpenHelper manages flashcard storage and database operations.
+- **Lesson Data:** LessonRepository loads and validates structured vocabulary data from a local JSON asset.
+- **Review Scheduling:** Android AlarmManager schedules flashcard review reminders.
+- **Notifications:** BroadcastReceivers handle scheduled notifications and restore review alarms after device reboot.
+
+The application uses local data storage and does not require a remote backend for its core functionality.
+
 ## Project Details
 
 | Item | Value |
